@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.exclusive-offer-heading {
+    font-weight: 700;
+    font-size: 52px;
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+/* Media Query for Mobile Devices (e.g., screens up to 767px wide) */
+@media screen and (max-width: 767px) {
+    .exclusive-offer-heading {
+        font-size: 32px; /* Adjust the font size for mobile devices */
+    }
+}
+
+.buggy-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; /* This will make sure all items stretch to the same height */
+  }
+  
+  .buggy-card {
+    display: flex;
+    flex-direction: column; /* Make sure the content inside the card is flex too */
+    justify-content: space-between; /* This will push the footer to the bottom */
+  }
+  
+  /* loading indicator */
+  .loading-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    z-index: 2000; /* High z-index to cover the whole screen */
+}
+
+.loading-spinner {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loading-container p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}

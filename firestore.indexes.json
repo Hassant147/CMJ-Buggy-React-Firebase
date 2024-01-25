@@ -1,0 +1,127 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Buggies",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Duration",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Time",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Vehicle Type`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Price",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Buggies",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Duration",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Time",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Vehicle Type`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Price",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Name",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Buggies",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Duration",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Time",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Vehicle Type`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Price",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Name",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Buggies",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Duration",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Time",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Vehicle Type`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Price",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Buggies",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Duration",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Time",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Vehicle Type`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Price",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "Name",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
